@@ -1,0 +1,20 @@
+{
+  "name": "自动轮播标签页v2",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "自动轮播标签页, 使用Mainifest v2。",
+  "icons": {
+      "128": "icons/auto_tab.png"
+  },
+  "permissions": [
+    "tabs", "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background":
+    {
+        "scripts": ["background.js"]
+	}
+
+}

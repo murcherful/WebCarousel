@@ -1,0 +1,20 @@
+{
+  "name": "自动轮播标签页v3",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "自动轮播标签页, 使用Mainifest v3. 由于限制,最短时间间隔为1分钟.",
+  "icons": {
+      "128": "icons/auto_tab.png"
+  },
+  "permissions": [
+    "tabs", "activeTab","storage","alarms"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background":
+    {
+      "service_worker": "background.js"
+	}
+
+}
